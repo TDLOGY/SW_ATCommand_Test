@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuration>
   <Serial>
-    <Port>COM3 </Port>
+    <Port>COM35 </Port>
     <Baudrate>115200</Baudrate>
   </Serial>
   <Command>AT+CRESET|AT+CMQNEW="test.mosquitto.org","1883",12000,100|AT+CMQCON=0,3,"myclient",600,0,0|AT+CMQSUB=0,"mytopic",1|AT+CMQPUB=0,"mytopic",1,0,0,8,"31323334"|AT+GCAP|AT+CREG|AT+CNBP?||||</Command>
